@@ -6,6 +6,7 @@ Xiaodan Zhu
 
 Project requirement:<br />
 For every single system listed in the “DataPlatformsMap”, give as a list of succinct points:*  Strengths (with numbered references)*  Weaknesses (with numbered references)*  References (can be articles, blog posts, research papers, white papers, your own assessment, ...)
+
 ===
 === 
 ## Introduction
