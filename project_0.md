@@ -13,11 +13,10 @@ For every single system listed in the “DataPlatformsMap”, give as a list of 
 I try to trace different routines mentioned on this map. And I am more interested in what I have never heard.
 
 ===
-===
 
 ## Analysis of dataplatforms
-===
 
+===
 ### Database.com
 * Relational
 * SaaS,PaaS
