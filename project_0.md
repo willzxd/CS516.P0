@@ -740,7 +740,6 @@ A security information and event management (SIEM) product
 <br />[24]M.  Matsumura, 'Deflating the Hype Over In-Memory Databases - Dice News', Dice News, 2013. [Online]. Available: http://news.dice.com/2013/11/20/deflating-the-hype-over-in-memory-computing/. [Accessed: 26- Jan- 2015].
 <br />[25] Elasticube.blogspot.com, 'In-memory BI is not the future. Itâ€™s the past. - The ElastiCube Chronicles', 2010. [Online]. Available: http://elasticube.blogspot.com/2010/09/in-memory-bi-is-not-future-its-past.html. [Accessed: 26- Jan- 2015].
 <br />[26] Kdrrecruitment.com, 'Why In-Memory Databases havenâ€™t taken over the world by Matthew Napleton Blog Post by KDR Recruitment', 2015. [Online]. Available: http://kdrrecruitment.com/news-blog/why-in-memory-databases-havent-taken-over-the-world/. [Accessed: 26- Jan- 2015].
-
 <br />
 [27] Searchsqlserver.techtarget.com, 'In-memory from xVelocity to the memory-optimized columnstore index', 2015. [Online]. Available: http://searchsqlserver.techtarget.com/feature/In-memory-from-xVelocity-to-the-memory-optimized-columnstore-index. [Accessed: 26- Jan- 2015].
 <br />[28] Itpub.net, 'SQL Server 2014? - MS SQL Server-ITPUB', 2015. [Online]. Available: http://www.itpub.net/thread-1862842-1-1.html. [Accessed: 26- Jan- 2015].
