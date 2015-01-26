@@ -6,16 +6,16 @@ Xiaodan Zhu
 
 Project requirement:<br />
 For every single system listed in the “DataPlatformsMap”, give as a list of succinct points:*  Strengths (with numbered references)*  Weaknesses (with numbered references)*  References (can be articles, blog posts, research papers, white papers, your own assessment, ...)
-- - -
-- - - 
+===
+=== 
 ## Introduction
 I try to trace different routines mentioned on this map. And I am more interested in what I have never heard.
 
-- - -
-- - -
+===
+===
 
 ## Analysis of dataplatforms
-- - -
+===
 
 ### Database.com
 * Relational
@@ -39,7 +39,7 @@ I try to trace different routines mentioned on this map. And I am more intereste
 
 
 
-- - -
+===
 ### Azure SQL Database
 * A relational database-as-a-service [7][7]<br />
 * Renamed version of SQL Azure [6][6]
@@ -60,7 +60,7 @@ I try to trace different routines mentioned on this map. And I am more intereste
 * Extra charge [10][10]
 * Security Probems [11][11] (For example, it does not support encrypting transparent data [10][10].) 
 
-- - -
+===
 ### ClearDB
 * DaaS
 * Part of MySQL ecosystem
@@ -133,7 +133,7 @@ Part of MySQL ecosystem
 * Not support Linux [31][31]
 * Restriction of clustered columnstore indexes [32][32]
 
-- - -
+===
 ###SAP HANA
 ####Strengths
 * Column and row-based database engine depending on how to use data [33][33]
@@ -147,7 +147,8 @@ Part of MySQL ecosystem
 * VM problems [36][36]
 * When you come to SAP HANA from traditional RDBMS, you need to pay more attention to some differences. [37][37] [38][38]
 * Expensive
-- - -
+
+===
 ###Informix
 ####Strengths
 * Integrating SQL, NoSQL/JSON, etc. [39][39]
@@ -158,7 +159,7 @@ Part of MySQL ecosystem
 * Not scalable
 * Consistency
 
-- - -
+===
 ###IBM DB2/PureData 
 
 ####Strengths
@@ -170,7 +171,8 @@ Part of MySQL ecosystem
 * Less robust than Oracle [41][41]
 * Expensive [41][41]  
 * Administration Required [41][41] 
-- - -
+
+===
 ###Oracle Database
 ####Strengths
 * Much support resources
@@ -181,7 +183,8 @@ Part of MySQL ecosystem
 ####Weaknesses
 * Expensive
 * Administration Required
-- - -
+
+===
 ###Oracle Exadata
 ####Strength
 * High performance
@@ -189,7 +192,8 @@ Part of MySQL ecosystem
 
 ####Weaknesses
 * Expensive
-- - -
+
+===
 ### Oracle Exalytics
 ####Strengths
 * Part of Oracle database ecosystem [42][42]
@@ -199,7 +203,7 @@ Part of MySQL ecosystem
 * Restriction of database size
 * Expensive
 
-- - -
+===
 ###XtremeData
 ####Strengths
 * ANSI SQL
@@ -207,7 +211,7 @@ Part of MySQL ecosystem
 ####Weaknesses
 * weak support for OLTP
 
-- - -
+===
 
 ### Teradata
 ####Strengths
@@ -218,14 +222,14 @@ Part of MySQL ecosystem
 * Expensive [44][44]
 
 
-- - -
+===
 ###SQream
 
 ####Strengths
 * High performance for analysis and transaction
 * GPU-based technology[45][45]
 
-- - -
+===
 ###SciDB
 ####Strengths
 * ACID [46][46]
@@ -235,7 +239,7 @@ Part of MySQL ecosystem
 ####Weakness
 * Not support SQL language [46][46]
 
-- - -
+===
 ###MySQL
 ####Strengths
 * Have many pluggable storage engines, which add lots of capabilities [47][47]
@@ -248,7 +252,8 @@ Part of MySQL ecosystem
 * Reluctant to accept patches from external sources [50][50]
 * Security is vulnerable [51][51]
 * Developing and debugging tools are relatively not so good [51][51]
-- - -
+
+===
 ### MySQL Cluster
 ####Strengths
 * The system can work with inexpensive hardware. It has very small amounts of specific requirements for software as well. [52][52]
@@ -260,7 +265,7 @@ Part of MySQL ecosystem
 * Inconvenient as MySQL Cluster Syntax cannot completely be compliant with SQL syntax [54][54]
 * MySQL Cluster has some unsupported or missing features. [55][55] 
 
-- - -
+===
 ### ￼MySQL Fabric
 ####Strengths
 * High Availability. This includes automated failover and transparent failover. Automated failover means that MySQL Fabric prevents both reads and writes from stopping by automatically promoting ones of its slaves to be the new master when it detects the old master fails. In the process of changing a new master, the application is completely transparent, as it does not have to make any changes. [56][56] [57][57]
@@ -272,7 +277,7 @@ Part of MySQL ecosystem
 * Has limitations on the scope of transactions and queries as it does not support too many rows in a single shard. [56][56]
 * Must be restarted if fails. [56][56]
 
-- - -
+===
 ### PostgreSQL
 ####Strengths
 * Strong security and safety feature [58][58]
@@ -284,7 +289,7 @@ Part of MySQL ecosystem
 * Lack of mature replication software. Need external solutions. [60][60]
 * Inserting very long data is not allowed [61][61]
 
-- - -
+===
 ### ScaleDB
 
 ####Strengths
@@ -298,7 +303,7 @@ Part of MySQL ecosystem
 * Lack of complete geographic information system (GIS) support [65][65]
 
 
-- - -
+===
 ### SQLite
 ####Strengths
 * Open source
@@ -311,7 +316,8 @@ Part of MySQL ecosystem
 * Locks whole file when writing
 * Not scalable
 * Restriction of size of database 
-- - -
+
+===
 ### Splice Machine (Hadoop/New SQL DB)
 ####Strengths
 * Hadoop scale-out technology [67][67]
@@ -320,7 +326,9 @@ Part of MySQL ecosystem
 * Fast [68][68]
 ####Weaknesses
 * It is still on the initial stage
-- - -
+
+
+===
 ### MarkLogic (Search/Graph)
 ####Strengths
 * support different kinds of data, such as XML, JSON, etc. [69][69] [72][72]
@@ -332,7 +340,7 @@ Part of MySQL ecosystem
 * In some circumstances, data migration may be relatively hard. [74][74] [75][75]
 * Lack of libraries
 
-- - -
+===
 ### OrientDB (General Purpose/Document/Graph)
 ####Strengths
 * Fast
@@ -345,7 +353,7 @@ Part of MySQL ecosystem
 ####Weaknesses
 * On the other side, documentation is a limitation.
 
-- - -
+===
 ### Google Cloud Datastore(aaS/BigTable)
 ####Strengths
 * BigTable [78][78]
@@ -357,7 +365,7 @@ Part of MySQL ecosystem
 * Not easy to understand and use [79][79]
 * No Join operation
 
-- - -
+===
 ###HBase 
 [83][83]
 
@@ -424,7 +432,10 @@ Part of MySQL ecosystem
 
 ####Weaknesses
 * limitation of in-memory tables
-- - -
+
+
+
+===
 
 ### Redis
 ####Strengths
@@ -534,6 +545,9 @@ almost same as above
 
 ####Weaknesses
 * weak framework [95][95]
+
+
+
 ===
 ###SQLStream
 
